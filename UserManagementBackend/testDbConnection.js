@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const { getConnection } = require('./dbConfig');
 
 async function testDatabaseConnection() {
